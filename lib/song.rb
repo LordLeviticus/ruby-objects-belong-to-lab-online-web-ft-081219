@@ -1,17 +1,5 @@
 class Song 
   
-  require 'pry'
-
-  attr_accessor :title, :artist 
+  attr_accessor :name, :assert_instance_of
   
-  def initialize(title, artist)
-    @title = title
-    @artist = Artist.new(artist)
-    
-    binding pry 
-  end
-  
-  
-
-
 end
